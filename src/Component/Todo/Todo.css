@@ -1,0 +1,75 @@
+.container {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    background: rgb(169, 203, 233);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.head {
+    font-weight: 600;  
+    font-style: oblique;
+}
+.form {
+    display: flex;
+}
+.form input {
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    background: transparent;
+    border-bottom: rgb(24, 18, 18) dashed;
+    width: 80%;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.form input:hover{
+    border: 2px solid rgb(112, 55, 4);
+} 
+.list {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 24px;
+}
+.editing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.editing input.input-style {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(11, 11, 11);
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+}
+button {
+    cursor: pointer;
+    font-size: 20px;
+    background: rgb(197, 198, 197);
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+.edit-button {
+   background: rgb(98, 216, 106);
+}
+.delete-button {
+    background: rgb(244, 20, 4);
+ }
+.editing button {
+    margin-right: 10px;
+    border: 1.5px solid rgb(11, 11, 11);
+    outline: none;
+    background: rgb(227, 225, 225);
+}
+.done {
+    text-decoration: line-through;
+}
+
+
